@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+       
+
+        th.time,th.mon,th.tue,th.wed,th.thu,th.header {
+            background-color: yellow;
+            font-size: 18px;
+        }
+
+        td.time {
+            background-color: #d9d9d9;
+            font-weight: bold;
+        }
+
+        td.home, th.home {
+            background-color: pink;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td, th {
+            min-width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+            <tr>
+                <th colspan="6" class="header">Final Examination Schedule - Fall 2008</th>
+            </tr>
+            <tr>
+                <th class="time"></th>
+                <th class="mon">Monday<br>Dec. 15</th>
+                <th class="tue">Tuesday<br>Dec. 16</th>
+                <th class="wed">Wednesday<br>Dec. 17</th>
+                <th class="thu">Thursday<br>Dec. 18</th>
+                <th class="home" rowspan="5">HOME</th> <!-- HOME spanning the last two rows -->
+
+
+            </tr>
+        
+            <tr>
+                <td class="time">8:00 <br>a.m.</td>
+                <td>Data <br>Structures</td>
+                <td>Algorithms</td>
+                <td>Computer <br>Networks</td>
+                <td>Database <br>Systems</td>
+
+            </tr>
+            <tr>
+                <td class="time">10:00 <br>a.m.</td>
+                <td>Operating <br>Systems</td>
+                <td>Artificial <br>Intelligence</td>
+                <td>Software <br>Engineering</td>
+                <td>Web <br>Development</td>
+            </tr>
+            <tr>
+                <td class="time">1:00 <br>p.m.</td>
+                <td>Machine <br>Learning</td>
+                <td>Cyber <br>Security</td>
+                <td>Mobile <br>Computing</td>
+                <td>Human- <br>Computer <br>Interaction</td>
+            </tr>
+            <tr>
+                <td class="time">3:00 <br>p.m.</td>
+                <td>Big Data <br>Analytics</td>
+                <td>Cloud <br>Computing</td>
+                <td>Parallel <br>Computing</td>
+                <td>Computer <br>Graphics</td>
+            </tr>
+    </table>
+</body>
+</html>
